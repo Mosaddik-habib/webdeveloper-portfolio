@@ -6,7 +6,7 @@ font-family : 'Open Sans', sans-serif;
     color: #FD6E0A;
 }
 
-.btn-primary {
+.btn-primary { 
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -96,6 +96,10 @@ nav a{
 
 /* Main section style  */
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* About  section style  */
 .about {
@@ -103,4 +107,12 @@ nav a{
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
